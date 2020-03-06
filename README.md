@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # allcats
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c053c45-9c47-4493-9183-95377d1c2b57/deploy-status)](https://app.netlify.com/sites/jdy3-allcats/deploys)
+
 ---
 
 ## Stack
