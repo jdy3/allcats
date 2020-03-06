@@ -28,6 +28,6 @@ To run the tests: `npm test`
 
 ## Deployment
 
-This app has been deployed to netlify: 
+This app has been deployed to netlify: https://jdy3-allcats.netlify.com/
 
 
