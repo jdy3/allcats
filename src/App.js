@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../src/assets/Allcats_badge.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Body from "./components/Body/Body";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <section className="Header">
         <Header />
       </section>
-      <section className="Body"></section>
+      <section className="Body">
+        <Body />
+      </section>
       <section className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
