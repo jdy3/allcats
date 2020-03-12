@@ -1,0 +1,26 @@
+.headerContainer {
+  background: white;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.burgerBar {
+  height: 6vh;
+}
+
+.logo {
+  height: 6vh;
+  font-family: "Caveat", cursive;
+  font-family: "Kalam", cursive;
+}
+
+.home {
+  height: 6vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}

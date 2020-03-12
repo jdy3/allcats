@@ -1,5 +1,7 @@
 import React from "react";
 import { getCatData } from "../../utils/getCatData";
+import { Profile } from "../Profile/Profile";
+import "./Body.css";
 
 const Body = () => {
   const [catData, setCatData] = React.useState(null);
@@ -9,15 +11,9 @@ const Body = () => {
   getCatData(url).then(data => setCatData(data));
 
   return catData ? (
-    <div>
+    <div className="profileContainer">
       {catData.map(cat => {
-        return (
-          <>
-            <img src={cat.image} alt="cat" />
-            <h2>{cat.name}</h2>
-            <p>{cat.description}</p>
-          </>
-        );
+        return <Profile profile={cat} key={cat.id} />;
       })}
     </div>
   ) : null;
