@@ -12,6 +12,11 @@ const Navbar = () => {
         alt="hamburger bar"
       />
       <img className="logo" src={logo} alt="logo" />
+      <div className="menuOptions">
+        <h3>Cat Delivery</h3>
+        <h3>Book a visit</h3>
+        <h3>Donate</h3>
+      </div>
       <img className="home" src={home} alt="logo" />
     </div>
   );
