@@ -3,8 +3,33 @@
   --primary: #2ea372;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
   background: var(--background);
   font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.Heading {
+  padding-left: 2em;
+}
+
+@media (min-width: 1024px) {
+  .Heading {
+    padding-left: 5em;
+  }
+}
+
+.Body {
+  padding: 0 2em 3em 2em;
+}
+
+@media (min-width: 1024px) {
+  .Body {
+    padding: 0 9em 2em 9em;
+  }
 }

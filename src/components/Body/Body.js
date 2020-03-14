@@ -13,7 +13,14 @@ const Body = () => {
   return catData ? (
     <div className="profileContainer">
       {catData.map(cat => {
-        return <Profile profile={cat} key={cat.id} />;
+        return (
+          <div className="profile">
+            <img src={cat.image} alt="cat" />
+            <h3>{cat.name}</h3>
+            <p>{cat.description}</p>
+            <button>Take Home</button>
+          </div>
+        );
       })}
     </div>
   ) : null;

@@ -9,6 +9,9 @@ function App() {
       <section className="Header">
         <Header />
       </section>
+      <section className="Heading">
+        <h1>Choose cats</h1>
+      </section>
       <section className="Body">
         <Body />
       </section>
