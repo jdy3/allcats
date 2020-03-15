@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.profileContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 1em 0.2em;
+}
+
+@media (min-width: 768px) {
+  .profileContainer {
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 1em 0.15em;
+  }
+}
+
+.profile {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  height: 24em;
+  width: 10.5em;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    width: 12em;
+    height: 23em;
+  }
+}
+
+img {
+  height: 10em;
+}
+
+p {
+  margin-top: -1em;
+  font-size: 0.8em;
+}
+
+button {
+  background: var(--primary);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.7em 2em 0.7em 2em;
+  width: 9.5em;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+@media (min-width: 768px) {
+  button {
+    width: 11em;
+    left: 1.2em;
+  }
+}
