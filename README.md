@@ -32,4 +32,17 @@ To run the tests: `npm test`
 
 This app has been deployed to netlify: https://jdy3-allcats.netlify.com/
 
+## Bonus points
+
+- To build the 'best' functionality using the `'tag'` field, I would employ an _if statement_ on the _map function_ to check if the array contained the 'best' tag and then add the badge as appropriate.
+
+- For some delightful user interactions I would add some text highlighting and animation on hover and click states.
+
+- I would use Jest for unit tests since I've used React.
+
+- For accessibility I would add some ARIA labels.
+
+- For loading / error / fail states / API issues, I would create some error pages to load to expalin this to the user.
+
+
 
