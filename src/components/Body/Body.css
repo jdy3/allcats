@@ -6,7 +6,6 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-gap: 1em 0.2em;
-  border: solid black;
 }
 
 @media (min-width: 768px) {
@@ -49,6 +48,15 @@ button {
   font-weight: bold;
   font-size: 0.9em;
   padding: 0.7em 2em 0.7em 2em;
+  width: 9.5em;
   position: absolute;
   bottom: 1em;
+  left: 1em;
+}
+
+@media (min-width: 768px) {
+  button {
+    width: 11em;
+    left: 1.2em;
+  }
 }

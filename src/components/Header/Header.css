@@ -15,6 +15,7 @@
   .headerContainer {
     grid-template-columns: 6fr 4fr 0.5fr;
     padding-left: 1rem;
+    height: 13vh;
   }
 }
 

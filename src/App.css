@@ -12,15 +12,30 @@
   font-family: "Rubik", sans-serif;
   display: flex;
   flex-direction: column;
+  padding-top: 5em;
+}
+
+@media (min-width: 768px) {
+  .App {
+    padding-top: 6em;
+  }
+}
+
+.Header {
+  position: fixed;
+  top: 0em;
+  left: 0em;
+  width: 100vw;
+  z-index: 1;
 }
 
 .Heading {
-  padding-left: 2em;
+  margin-left: 2em;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .Heading {
-    padding-left: 5em;
+    margin-left: 9em;
   }
 }
 
@@ -28,7 +43,7 @@
   padding: 0 2em 3em 2em;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .Body {
     padding: 0 9em 2em 9em;
   }
